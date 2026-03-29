@@ -109,10 +109,10 @@ unset($_SESSION['alerts']);
                                 <i class='bx bx-building'></i>
                             </div>
                             <h3>Main Campus</h3>
-                            <p>123 Education Street</p>
-                            <p>University District</p>
-                            <p>City, State 12345</p>
-                            <p>United States</p>
+                            <p>CRDM Building, Congressional Road</p>
+                            <p>Maderan, General Mariano Alvarez</p>
+                            <p>4117 Cavite</p>
+                            <p>Philippines</p>
                         </div>
 
                         <!-- Phone -->
@@ -121,9 +121,7 @@ unset($_SESSION['alerts']);
                                 <i class='bx bx-phone'></i>
                             </div>
                             <h3>Phone</h3>
-                            <p><strong>Main:</strong> +1 (555) 123-4567</p>
-                            <p><strong>Toll Free:</strong> 1-800-PHILTECH</p>
-                            <p><strong>Fax:</strong> +1 (555) 123-4570</p>
+                            <p><strong>Main:</strong>09972240222</p>
                         </div>
 
                         <!-- Email -->
@@ -132,9 +130,8 @@ unset($_SESSION['alerts']);
                                 <i class='bx bx-envelope'></i>
                             </div>
                             <h3>Email</h3>
-                            <p><strong>General:</strong> <a href="mailto:info@philtech.edu">info@philtech.edu</a></p>
-                            <p><strong>Admissions:</strong> <a href="mailto:admissions@philtech.edu">admissions@philtech.edu</a></p>
-                            <p><strong>Support:</strong> <a href="mailto:support@philtech.edu">support@philtech.edu</a></p>
+                            <p><strong>General:</strong> <a href="https://www.facebook.com/philtechgma2013/">@philtechgma2013</a></p>
+                            
                         </div>
 
                         <!-- Office Hours -->
@@ -143,8 +140,8 @@ unset($_SESSION['alerts']);
                                 <i class='bx bx-time'></i>
                             </div>
                             <h3>Office Hours</h3>
-                            <p><strong>Monday - Friday:</strong> 9:00 AM - 5:00 PM</p>
-                            <p><strong>Saturday:</strong> 10:00 AM - 2:00 PM</p>
+                            <p><strong>Monday - Friday:</strong> 8:00 AM - 5:00 PM</p>
+                            <p><strong>Saturday:</strong> 8:00 AM - 2:00 PM</p>
                             <p><strong>Sunday:</strong> Closed</p>
                         </div>
                     </div>
@@ -159,8 +156,8 @@ unset($_SESSION['alerts']);
                                     <p>For enrollment and application questions</p>
                                 </div>
                                 <div class="dept-contact">
-                                    <a href="tel:+15551234567">+1 (555) 123-4567</a>
-                                    <small>admissions@philtech.edu</small>
+                                    <a href="tel:09972240222">09972240222</a>
+                                    <small>@philtechgma2013</small>
                                 </div>
                             </div>
                             <div class="department-item">
@@ -169,7 +166,7 @@ unset($_SESSION['alerts']);
                                     <p>For current student support</p>
                                 </div>
                                 <div class="dept-contact">
-                                    <a href="tel:+15551234568">+1 (555) 123-4568</a>
+                                    <a href="tel:+09972240222">+09972240222</a>
                                     <small>students@philtech.edu</small>
                                 </div>
                             </div>
@@ -179,15 +176,15 @@ unset($_SESSION['alerts']);
                                     <p>For general questions and information</p>
                                 </div>
                                 <div class="dept-contact">
-                                    <a href="tel:+15551234569">+1 (555) 123-4569</a>
-                                    <small>info@philtech.edu</small>
+                                    <a href="tel:+09972240222">+09972240222</a>
+                                    <small>@philtechgma2013</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Right Side - Contact Form -->
+              
                 <div class="contact-form-container">
                     <h2>Send a Message</h2>
                     <form action="contact.php" method="POST" id="contactForm">
@@ -206,7 +203,7 @@ unset($_SESSION['alerts']);
                         <div class="form-group">
                             <label>Subject <span class="required">*</span></label>
                             <select name="subject" required>
-                                <option value="">Select a subject</option>
+                                <option value="">Select a PROGRAM</option>
                                 <option value="Admissions" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Admissions') ? 'selected' : '' ?>>Admissions</option>
                                 <option value="Program Information" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Program Information') ? 'selected' : '' ?>>Program Information</option>
                                 <option value="Scholarships" <?= (isset($_POST['subject']) && $_POST['subject'] == 'Scholarships') ? 'selected' : '' ?>>Scholarships</option>
@@ -267,13 +264,13 @@ unset($_SESSION['alerts']);
             </div>
             <div class="footer-col">
                 <h4>Contact Info</h4>
-                <p><i class='bx bx-map'></i> 📍 123 Education Street, University District, City 12345</p>
-                <p><i class='bx bx-phone'></i> 📞 +1 (555) 123-4567</p>
-                <p><i class='bx bx-envelope'></i> ✉️ info@philtech.edu</p>
+                <p><i class='bx bx-map'></i> 📍 CRDM Building, Congressional Rd, Maderan, General Mariano Alvarez, 4117 Cavite</p>
+                <p><i class='bx bx-phone'></i> 📞 09972240222</p>
+                <p><i class='bx bx-envelope'></i> ✉️ https://www.facebook.com/philtechgma2013/</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2026 Philtech Educational Institution. All rights reserved.</p>
+            <p>© 2026 Philtech Technological Institution. All rights reserved.</p>
         </div>
     </footer>
 
