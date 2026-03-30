@@ -58,12 +58,12 @@ unset($_SESSION['active_form']);
                 <div class="mv-card">
                     <div class="mv-icon">🎯</div>
                     <h3>Our Mission</h3>
-                    <p>To provide accessible, high-quality education that empowers students to achieve their full potential and make meaningful contributions to society. We are committed to fostering critical thinking, creativity, and lifelong learning in a supportive and inclusive environment.</p>
+                    <p>Philippine Technological Institute of Science, Arts and Trade, Ine. (PHILTECH) is dedicated to give quality education to the development of every Filipino. It aims to hone students who are values oriented and physically, academically, socially, and spiritually committed to the achievement of life-long learning and service to the nation.</p>
                 </div>
                 <div class="mv-card">
                     <div class="mv-icon">👁️</div>
                     <h3>Our Vision</h3>
-                    <p>To be a globally recognized leader in education, known for academic excellence, innovative research, and transformative learning experiences. We envision a future where every student has the opportunity to excel and contribute to building a better world.</p>
+                    <p>PHILTECH shall emerge as the only technical school in the Philippines that can provide academic excellence, appropriate technology and produce graduates who are globally competitive and shall serve as pillar in this changing world,</p>
                 </div>
             </div>
         </div>
@@ -100,17 +100,18 @@ unset($_SESSION['active_form']);
             <div class="history-content">
                 <span class="history-year">Est. 1974</span>
                 <div class="about-text">
-                    <p>Founded in 1974, Philtech began as a small technical institute with a vision to provide quality education to students from all backgrounds. Over the decades, we have grown into a comprehensive educational institution serving thousands of students.</p>
-                    <p>Our journey has been marked by continuous innovation, expansion of academic programs, and a steadfast commitment to student success. Today, we offer over 50 programs across multiple disciplines and maintain partnerships with leading institutions worldwide.</p>
-                    <p>As we look to the future, we remain dedicated to our founding principles while embracing new technologies and teaching methodologies to prepare students for the challenges and opportunities of tomorrow.</p>
+                    <p>Philippine Technological Institute of Science Arts and Trade Inc. was founded in 2010 as a non-stock non-profit non-sectarian private Educational Institution to blaze the trail in the field of technical education. Its eleven founders were a mixture of engineers</p>
+                    <p>a scientist/inventor and practitioner in the IT industry, school administrators, managers, and academic professionals in both public and private institutions. Today, the school is more popularly known as PHILTECH.</p>
+                    <p>The first school was established in November of 2010 and is presently located at F.T. Catapusan St. in Tanay, Rizal. In June 2011, Philippine Technological Institute of Science Arts and Trade Inc. </p>
+                    <p>offered two-year programs in Information technology, hotel and restaurant services, and business outsourcing management.</p>
                 </div>
                 <div class="history-grid">
                     <div class="history-stat">
-                        <div class="history-stat-number">1974</div>
+                        <div class="history-stat-number">2010</div>
                         <p>Year Founded</p>
                     </div>
                     <div class="history-stat">
-                        <div class="history-stat-number">50+</div>
+                        <div class="history-stat-number">16</div>
                         <p>Years of Excellence</p>
                     </div>
                     <div class="history-stat">
@@ -118,7 +119,7 @@ unset($_SESSION['active_form']);
                         <p>Alumni Worldwide</p>
                     </div>
                     <div class="history-stat">
-                        <div class="history-stat-number">50+</div>
+                        <div class="history-stat-number">10+</div>
                         <p>Academic Programs</p>
                     </div>
                 </div>
@@ -157,18 +158,17 @@ unset($_SESSION['active_form']);
                 <a href="sample.php">Home</a>
                 <a href="about_sample.php">About Us</a>
                 <a href="#">Enrollment</a>
-                <a href="#">Inquiry</a>
-                <a href="#">Contact</a>
+                <a href="contact.php">Contact</a>
             </div>
             <div class="footer-col">
                 <h4>Contact Info</h4>
-                <p><i class='bx bx-map'></i> 123 Education Street, University District, City 12345</p>
-                <p><i class='bx bx-phone'></i> +1 (555) 123-4567</p>
-                <p><i class='bx bx-envelope'></i> info@philtech.edu</p>
+                <p><i class='bx bx-map'></i> 📍 CRDM Building, Congressional Rd, Maderan, General Mariano Alvarez, 4117 Cavite</p>
+                <p><i class='bx bx-phone'></i> 📞 09972240222</p>
+                <p><i class='bx bx-envelope'></i> ✉️ https://www.facebook.com/philtechgma2013/</p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2026 Philtech Educational Institution. All rights reserved.</p>
+            <p>© 2026 Philtech Technological Institution. All rights reserved.</p>
         </div>
     </footer>
 
