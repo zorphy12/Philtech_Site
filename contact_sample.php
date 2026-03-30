@@ -22,17 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['send_message'])) {
     if (empty($message)) $errors[] = "Message is required";
     
     if (empty($errors)) {
-        // In production, you would send an email or save to database
-        // For demo purposes, we'll just show success message
-        
-        // You can uncomment this to actually send email
-        /*
-        $to = "info@philtech.edu";
-        $headers = "From: " . $email . "\r\n";
-        $headers .= "Reply-To: " . $email . "\r\n";
-        $full_message = "Name: $name\nEmail: $email\n\n$message";
-        mail($to, $subject, $full_message, $headers);
-        */
+       
         
         $_SESSION['alerts'][] = ['type' => 'success', 'message' => 'Thank you! Your message has been sent successfully.'];
         
