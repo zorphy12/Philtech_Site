@@ -6,7 +6,17 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+step-card{
+    margin-left: 25%;
+    align-items: center;
+}
+.btn-primary login-btn-modal{
+    margin-left: 50%;
+}
+.process-steps{
+    margin-left: 25%;
+    align-items: center;
+}
 body {
     background-color: #f9fafb;
 }
