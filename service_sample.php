@@ -1,14 +1,14 @@
 <?php
 session_start();
 
-// Handle logout
+
 if (isset($_GET['logout'])) {
     session_destroy();
     header("Location: " . strtok($_SERVER["REQUEST_URI"], '?'));
     exit();
 }
 
-// Handle login/register simulation
+
 $error_msg = '';
 $success_msg = '';
 
@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['login_btn'])) {
         $email = trim($_POST['email'] ?? '');
         $password = $_POST['password'] ?? '';
-        // Demo credentials
+       
         if ($email === 'student@philtech.edu' && $password === 'demo123') {
             $_SESSION['logged_in'] = true;
             $_SESSION['name'] = 'Alex Johnson';
@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit();
 }
 
-// Get session flash
+
 $flash = $_SESSION['flash'] ?? null;
 unset($_SESSION['flash']);
 
