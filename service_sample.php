@@ -126,14 +126,14 @@ $user_name = $logged_in ? ($_SESSION['name'] ?? 'User') : null;
 <div class="enroll-process" id="enrollProcess">
     <h2 class="section-title">Enrollment Application</h2>
     <p class="section-subtitle">Take the first step towards your educational journey at Philtech</p>
-    <div class="process-steps">
+    <div class="process-steps" id="process-steps">
         <div class="step-card"><div class="step-num">1</div><h3>Complete Application</h3><p>Fill out the enrollment form with your information</p></div>
         <div class="step-card"><div class="step-num">2</div><h3>Submit Documents</h3><p>Upload required academic and identification documents</p></div>
         <div class="step-card"><div class="step-num">3</div><h3>Get Confirmed</h3><p>Receive confirmation and start your journey</p></div>
     </div>
     <div style="margin-top: 40px;">
         <?php if (!$logged_in): ?>
-            <button class="btn-primary login-btn-modal" style="background:#ffb347;">Apply Now <i class='bx bxs-pencil'></i></button>
+            <button class="btn-primary login-btn-modal" id="btn-primary login-btn-modal" style="background:#ffb347;">Apply Now <i class='bx bxs-pencil'></i></button>
         <?php else: ?>
             <a href="#" class="btn-primary" style="background:#ffb347;">Continue Application →</a>
         <?php endif; ?>
