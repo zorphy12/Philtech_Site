@@ -50,7 +50,7 @@ unset($_SESSION['active_form']);
     <div class="hero-wrapper">
         <div class="hero-container">
             <div class="hero-content">
-                <div class="hero-badge">✨ Since 2012 — Excellence in education</div>
+                <div class="hero-badge">✨ Since 2010 — Excellence in education</div>
                 <h1>Welcome to Philtech<br>Empowering students with world-class education</h1>
                 <p>Innovative learning experiences. Join us in shaping tomorrow's leaders through excellence in education and commitment to student success.</p>
                 <div class="btn-group">
