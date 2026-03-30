@@ -1,13 +1,13 @@
 <?php
 session_start();
 
-// Check if user is logged in
+
 $logged_in = isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true;
 $name = $logged_in ? ($_SESSION['name'] ?? null) : null;
 $alerts = $_SESSION['alerts'] ?? [];
 $active_form = $_SESSION['active_form'] ?? '';
 
-// Clear alerts after displaying
+
 unset($_SESSION['alerts']);
 unset($_SESSION['active_form']);
 ?>
@@ -133,7 +133,7 @@ unset($_SESSION['active_form']);
         <a href="#" class="btn-primary" style="background: #ffb347; color: #1a2c3e;">Apply Now <i class='bx bxs-paper-plane'></i></a>
     </div>
 
-    <footer>
+     <footer>
         <div class="footer-content">
             <div class="footer-col">
                 <h4>Philtech</h4>
@@ -144,17 +144,17 @@ unset($_SESSION['active_form']);
                 <a href="sample.php">Home</a>
                 <a href="about_sample.php">About Us</a>
                 <a href="#">Enrollment</a>
-                <a href="#">Contact</a>
+                <a href="contact.php">Contact</a>
             </div>
             <div class="footer-col">
                 <h4>Contact Info</h4>
-                <p><i class='bx bx-map'></i> 📍 123 Education Street, University District, City 12345</p>
-                <p><i class='bx bx-phone'></i> 📞 +1 (555) 123-4567</p>
-                <p><i class='bx bx-envelope'></i> ✉️ info@philtech.edu</p>
+                <p><i class='bx bx-map'></i> 📍 CRDM Building, Congressional Rd, Maderan, General Mariano Alvarez, 4117 Cavite</p>
+                <p><i class='bx bx-phone'></i> 📞 09972240222</p>
+                <p ><i class='bx bx-envelope'></i><a href="//www.facebook.com/philtechgma2013"> ✉️ philtechgma2013 </a></p>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2026 Philtech Educational Institution. All rights reserved.</p>
+            <p>© 2026 Philtech Technological Institution. All rights reserved.</p>
         </div>
     </footer>
 
